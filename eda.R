@@ -6,8 +6,8 @@ install.packages("httpuv")
 
 #### Connect to API ####
 
-Sys.setenv(SPOTIFY_CLIENT_ID = '723c150391c04a3899fecf5a2c8d711d')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = '99075ce9f22e45eea3215ff4d15d8027')
+Sys.setenv(SPOTIFY_CLIENT_ID = '***')
+Sys.setenv(SPOTIFY_CLIENT_SECRET = '***')
 
 my_token <- spotifyr::get_spotify_access_token()
 
